@@ -1,0 +1,131 @@
+2018-04-17 10:32:03,378 [main] INFO  (Configuration.java [<init>]:183) - Reading configuration from file /usr/local/diae/lib/conf.xml 
+2018-04-17 10:32:03,447 [main] INFO  (Configuration.java [configureStartup]:1258) - Registered StartupTrigger: org.exist.extensions.exquery.restxq.impl.RestXqStartupTrigger 
+2018-04-17 10:32:03,449 [main] INFO  (Configuration.java [configureStartup]:1258) - Registered StartupTrigger: org.exist.repo.AutoDeploymentTrigger 
+2018-04-17 10:32:03,810 [main] ERROR (Configuration.java [lookupModuleClass]:457) - Configuration problem: class not found for module 'http://exist-db.org/xquery/context' (ClassNotFoundException); class:'org.exist.xquery.modules.context.ContextModule'; message:'org.exist.xquery.modules.context.ContextModule' 
+2018-04-17 10:32:03,850 [main] ERROR (Configuration.java [lookupModuleClass]:457) - Configuration problem: class not found for module 'http://exist-db.org/xquery/versioning/svn' (ClassNotFoundException); class:'org.exist.versioning.svn.xquery.SVNModule'; message:'org.exist.versioning.svn.xquery.SVNModule' 
+2018-04-17 10:32:03,853 [main] INFO  (eXistURLStreamHandlerFactory.java [init]:53) - Succesfully registered eXistURLStreamHandlerFactory. 
+2018-04-17 10:32:03,855 [main] INFO  (Configuration.java [configureValidation]:1515) - Add catalog uri file:/usr/local/diae/lib/webapp//WEB-INF/catalog.xml 
+2018-04-17 10:32:03,856 [main] INFO  (GrammarPool.java [<init>]:53) - Initializing GrammarPool. 
+2018-04-17 10:32:03,865 [main] INFO  (BrokerPool.java [<init>]:670) - database instance 'exist' will have between 1 and 20 brokers 
+2018-04-17 10:32:03,866 [main] INFO  (BrokerPool.java [<init>]:679) - database instance 'exist' will be synchronized every 120,000 ms 
+2018-04-17 10:32:03,866 [main] INFO  (BrokerPool.java [<init>]:686) - database instance 'exist' will wait  120,000 ms during shutdown 
+2018-04-17 10:32:03,866 [main] INFO  (BrokerPool.java [<init>]:692) - database instance 'exist' is enabled for transactions : true 
+2018-04-17 10:32:03,913 [main] INFO  (QuartzSchedulerImpl.java [getQuartzProperties]:114) - Succesfully loaded quartz.properties 
+2018-04-17 10:32:04,216 [main] INFO  (DefaultCacheManager.java [<init>]:151) - Cache settings: 131,072k; totalPages: 32,768; maxCacheSize: 29,491; cacheShrinkThreshold: 10,000 
+2018-04-17 10:32:04,389 [main] INFO  (XQueryPool.java [<init>]:120) - QueryPool: size = 128; maxStackSize = 5; timeout = 120,000; timeoutCheckInterval = 30,000 
+2018-04-17 10:32:04,514 [main] INFO  (IndexManager.java [initIndex]:99) - Registered index org.exist.indexing.ngram.NGramIndex as ngram-index 
+2018-04-17 10:32:04,929 [main] INFO  (IndexManager.java [initIndex]:99) - Registered index org.exist.indexing.lucene.LuceneIndex as lucene-index 
+2018-04-17 10:32:04,930 [main] INFO  (IndexManager.java [initIndex]:99) - Registered index org.exist.indexing.sort.SortIndex as sort-index 
+2018-04-17 10:32:04,939 [main] INFO  (IndexManager.java [initIndex]:99) - Registered index org.exist.indexing.range.RangeIndex as range-index 
+2018-04-17 10:32:04,941 [main] INFO  (IndexManager.java [initIndex]:99) - Registered index org.exist.storage.structural.NativeStructuralIndex as structural-index 
+2018-04-17 10:32:06,053 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 63,535K free 
+2018-04-17 10:32:06,054 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,055 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 0% (1 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,055 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,056 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,056 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,056 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,111 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/plugins/config.xml 
+2018-04-17 10:32:06,117 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 60,923K free 
+2018-04-17 10:32:06,117 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,118 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 1% (2 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,118 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,118 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,118 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,119 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,149 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/config.xml 
+2018-04-17 10:32:06,184 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 59,623K free 
+2018-04-17 10:32:06,184 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,185 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 1% (3 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,185 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,186 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,186 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,187 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,214 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/exist/accounts/admin.xml 
+2018-04-17 10:32:06,223 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 58,322K free 
+2018-04-17 10:32:06,223 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,224 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (4 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,224 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,224 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,225 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,225 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,236 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/config.xml 
+2018-04-17 10:32:06,238 [main] INFO  (NativeBroker.java [removeXMLResource]:2641) - Removing document config.xml (3) ... 
+2018-04-17 10:32:06,254 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 58,322K free 
+2018-04-17 10:32:06,255 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,255 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (4 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,255 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,256 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,256 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,256 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,258 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/exist/accounts/admin.xml 
+2018-04-17 10:32:06,260 [main] INFO  (NativeBroker.java [removeXMLResource]:2641) - Removing document admin.xml (4) ... 
+2018-04-17 10:32:06,275 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 58,322K free 
+2018-04-17 10:32:06,276 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,276 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (4 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,277 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,277 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,277 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,277 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,279 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/exist/accounts/guest.xml 
+2018-04-17 10:32:06,286 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 58,322K free 
+2018-04-17 10:32:06,287 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,287 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,287 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,288 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,288 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,288 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,295 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/config.xml 
+2018-04-17 10:32:06,296 [main] INFO  (NativeBroker.java [removeXMLResource]:2641) - Removing document config.xml (3) ... 
+2018-04-17 10:32:06,304 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 57,021K free 
+2018-04-17 10:32:06,304 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,304 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,305 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,305 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,305 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,306 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,307 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/exist/accounts/guest.xml 
+2018-04-17 10:32:06,308 [main] INFO  (NativeBroker.java [removeXMLResource]:2641) - Removing document guest.xml (5) ... 
+2018-04-17 10:32:06,318 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 57,021K free 
+2018-04-17 10:32:06,319 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,320 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,320 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,320 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,321 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,321 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,325 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 112,128K total; 699,392K max; 57,021K free 
+2018-04-17 10:32:06,326 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,326 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,327 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,327 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,327 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,328 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,340 [main] INFO  (ExistRepository.java [getRepository]:186) - Using directory /usr/local/diae/data/expathrepo for expath package repository 
+2018-04-17 10:32:06,590 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 117,760K total; 699,392K max; 98,792K free 
+2018-04-17 10:32:06,591 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,591 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,591 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,592 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,592 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,592 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,665 [main] INFO  (Configurator.java [save]:1244) - Storing configuration /db/system/security/exist/accounts/admin.xml 
+2018-04-17 10:32:06,748 [main] INFO  (NativeBroker.java [removeXMLResource]:2641) - Removing document admin.xml (4) ... 
+2018-04-17 10:32:06,759 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 117,760K total; 699,392K max; 94,575K free 
+2018-04-17 10:32:06,759 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,760 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,760 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,761 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,761 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,761 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,768 [main] INFO  (BrokerPool.java [shutdown]:1899) - Database is shutting down ... 
+2018-04-17 10:32:06,843 [main] INFO  (NativeBroker.java [sync]:3588) - Memory: 117,760K total; 699,392K max; 93,309K free 
+2018-04-17 10:32:06,843 [main] INFO  (BTree.java [printStatistics]:2549) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,843 [main] INFO  (DOMFile.java [printStatistics]:1360) - dom.dbx DATA Buffers occupation : 2% (5 out of 256) Cache efficiency : 100% 
+2018-04-17 10:32:06,843 [main] INFO  (BTree.java [printStatistics]:2549) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,844 [main] INFO  (BFile.java [printStatistics]:436) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2018-04-17 10:32:06,844 [main] INFO  (BTree.java [printStatistics]:2549) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,844 [main] INFO  (BFile.java [printStatistics]:436) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2018-04-17 10:32:06,845 [main] INFO  (Journal.java [shutdown]:484) - Transaction journal cleanly shutting down with checkpoint... 
+2018-04-17 10:32:06,845 [main] INFO  (FileLock.java [release]:189) - Deleting lock file: /usr/local/diae/data/journal.lck 
+2018-04-17 10:32:06,916 [main] INFO  (FileLock.java [release]:189) - Deleting lock file: /usr/local/diae/data/dbx_dir.lck 
+2018-04-17 10:32:06,916 [main] INFO  (BrokerPool.java [shutdown]:2036) - shutdown complete ! 

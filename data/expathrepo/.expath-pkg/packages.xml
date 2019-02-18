@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><packages xmlns="http://expath.org/ns/repo/packages">
+<package name="http://exist-db.org/apps/shared" dir="shared-0.4.0" version="0.4.0"/>
+<package version="1.3" dir="bf-XForms-1.3" name="http://www.betterfrom.de/apps/xforms"/>
+<package version="0.4.2" dir="dashboard-0.4.2" name="http://exist-db.org/apps/dashboard"/>
+<package version="0.1.6" dir="xqjson-0.1.6" name="http://xqilla.sourceforge.net/pkg/xqjson"/>
+<package version="0.3.2" dir="demo-0.3.2" name="http://exist-db.org/apps/demo"/>
+<package version="0.4.3" dir="doc-0.4.3" name="http://exist-db.org/apps/doc"/>
+<package version="2.1.2" dir="eXide-2.1.2" name="http://exist-db.org/apps/eXide"/>
+<package version="0.4" dir="markdown-0.4" name="http://exist-db.org/apps/markdown"/>
+<package version="0.7" dir="fundocs-0.7" name="http://exist-db.org/apps/fundocs"/>
+<package version="0.5" dir="monex-0.5" name="http://exist-db.org/apps/monex"/>
+<package version="594" dir="xsltforms-594" name="http://exist-db.org/apps/xsltforms"/>
+<package version="0.1.5" dir="xsltforms-demo-0.1.5" name="http://exist-db.org/apps/xsltforms-demo"/>
+</packages>

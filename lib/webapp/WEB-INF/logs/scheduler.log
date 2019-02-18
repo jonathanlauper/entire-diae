@@ -1,0 +1,21 @@
+2018-04-17 10:32:03,957 [main] INFO  (StdSchedulerFactory.java [instantiate]:1157) - Using default implementation for ThreadExecutor 
+2018-04-17 10:32:03,961 [main] INFO  (SimpleThreadPool.java [initialize]:271) - Job execution threads will use class loader of thread: main 
+2018-04-17 10:32:04,033 [main] INFO  (SchedulerSignalerImpl.java [<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-04-17 10:32:04,035 [main] INFO  (QuartzScheduler.java [<init>]:243) - Quartz Scheduler v.2.1.6 created. 
+2018-04-17 10:32:04,038 [main] INFO  (RAMJobStore.java [initialize]:154) - RAMJobStore initialized. 
+2018-04-17 10:32:04,039 [main] INFO  (QuartzScheduler.java [initialize]:268) - Scheduler meta-data: Quartz Scheduler (v2.1.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-04-17 10:32:04,039 [main] INFO  (StdSchedulerFactory.java [instantiate]:1306) - Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance. 
+2018-04-17 10:32:04,040 [main] INFO  (StdSchedulerFactory.java [instantiate]:1310) - Quartz scheduler version: 2.1.6 
+2018-04-17 10:32:06,642 [main] INFO  (QuartzScheduler.java [start]:534) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018-04-17 10:32:06,645 [main] INFO  (SyncTask.java [configure]:65) - Using DATA_DIR: /usr/local/diae/data. Minimal disk space required for database to continue operations: 128mb 
+2018-04-17 10:32:06,645 [main] INFO  (SyncTask.java [configure]:68) - Usable space on partition containing DATA_DIR: /usr/local/diae/data: 642683mb 
+2018-04-17 10:32:06,768 [main] INFO  (QuartzScheduler.java [shutdown]:653) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down. 
+2018-04-17 10:32:06,768 [main] INFO  (QuartzScheduler.java [standby]:572) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused. 
+2018-04-17 10:32:06,769 [main] INFO  (QuartzScheduler.java [shutdown]:725) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete. 

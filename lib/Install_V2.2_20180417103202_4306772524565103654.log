@@ -1,0 +1,5 @@
+--- Starting embedded database instance ---
+Apr 17, 2018 10:32:06 AM org.expath.pkg.repo.util.Logger info
+INFO: Create a new repository with storage: File system storage in /usr/local/diae/data/expathrepo
+Setting admin user password...
+--- Initialization complete. Shutdown embedded database instance ---
